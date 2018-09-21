@@ -18,7 +18,7 @@ dependencies:
     upstart_stop_on:
       - shutdown
     upstart_capture_errors: yes
-  - role: Oefenweb.logrotated
+  - role: oefenweb.logrotated
     logrotated_logrotate_d_files:
       elastalert:
         - logs:
